@@ -1,4 +1,3 @@
-
 import React from "react";
 import Navbar from "./Navbar";
 import "./LandingPage.css";
@@ -154,7 +153,6 @@ const LandingPage = () => {
               </li>
             </ul>
           </div>
-          
         </div>
         <p className="copyright">
           © 2025 Shri L.R. Tiwari College of Engineering. All rights reserved.
