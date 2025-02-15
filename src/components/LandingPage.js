@@ -1,4 +1,4 @@
-// src/components/LandingPage.js
+
 import React from "react";
 import Navbar from "./Navbar";
 import "./LandingPage.css";

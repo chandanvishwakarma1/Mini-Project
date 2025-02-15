@@ -1,29 +1,28 @@
-/* src/components/LandingPage.css */
+
 .landing-page {
     text-align: center;
     font-family: Arial, sans-serif;
   }
   
   .header {
-    /* background-color: #4CAF50; */
     color: black;
     padding: 50px;
   }
   
   .hero-title {
-    font-size: 4em; /* Big text */
+    font-size: 4em;
     font-weight: bold;
     margin-bottom: 20px;
   }
   
   .gradient-text {
-    background: linear-gradient(to right, #F39C12, #E74C3C); /* Gradient color */
+    background: linear-gradient(to right, #F39C12, #E74C3C); 
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
   
   .hero-subtitle {
-    font-size: 1.2em; /* Small text */
+    font-size: 1.2em;
     margin-bottom: 40px;
   }
   
@@ -34,12 +33,12 @@
   }
   
   .cta-button {
-    background-color: #F39C12; /* Yellow */
+    background-color: #F39C12; 
     border: none;
     padding: 15px 30px;
     font-size: 16px;
     cursor: pointer;
-    border-radius: 5px; /* Professional border radius */
+    border-radius: 5px; 
     color: white;
   }
   
@@ -48,21 +47,20 @@
     font-size: 1.2em;
   }
   .cta-button-secondary {
-    /* background-color: #9B59B6;  */
     border: 1px solid red;
     padding: 15px 30px;
     font-size: 16px;
     cursor: pointer;
-    border-radius: 5px; /* Professional border radius */
+    border-radius: 5px; 
     color: #F39C12;
   }
   
   .cta-button:hover, .cta-button-secondary:hover {
-    background-color: #E74C3C; /* Red on hover */
+    background-color: #E74C3C; 
   }
   .features {
     padding: 40px 20px;
-    background-color: #f9f9f9; /* Light background for contrast */
+    background-color: #f9f9f9; 
   }
   
   .cards-container {
@@ -84,7 +82,7 @@
   .card-icon {
     font-size: 2em;
     margin-bottom: 10px;
-    color: #f8b64b; /* Green color for the icons */
+    color: #f8b64b; 
   }
   
   .card h3 {
@@ -101,7 +99,7 @@
 
   .stats {
     padding: 40px 20px;
-    background-color: #ffffff; /* White background */
+    background-color: #ffffff; 
     text-align: center;
   }
   
@@ -122,17 +120,17 @@
   }
   
   .stats-item strong {
-    font-size: 2.5em; /* Large font for numbers */
-    color: #E74C3C; /* Bold color */
+    font-size: 2.5em; 
+    color: #E74C3C;
   }
   
   .stats-item p {
     font-size: 1.2em;
     margin-top: 5px;
-    color: #333; /* Dark text */    
+    color: #333;   
   }
   .footer {
-    background-color: transparent; /* Transparent background */
+    background-color: transparent;
     color: black;
     padding: 40px 60px;
     text-align: center;
@@ -148,7 +146,7 @@
   
   .footer-column {
     margin-bottom: 20px;
-    text-align: left; /* Align options to the left */
+    text-align: left;
   }
   
   .footer-column h4 {
