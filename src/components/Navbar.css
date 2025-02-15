@@ -1,0 +1,64 @@
+/* src/components/Navbar.css */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: transparent; /* Transparent background */
+    color: black;
+    border-bottom: 1px solid #e0e0e0;
+  }
+  
+  .navbar-left {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+  }
+  
+  .navbar-left h1 {
+    margin: 0;
+    margin-right: 20px;
+  }
+  
+  .navbar-options {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  .navbar-options li {
+    margin: 0 15px;
+  }
+  
+  .navbar-options a {
+    color: black;
+    text-decoration: none;
+  }
+  
+  .navbar-right {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .login-button, .signup-button {
+    border: none;
+    padding: 10px 20px;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  .signup-button {
+    background-color: #f1c40f;
+    border: none;
+    padding: 10px 20px;
+    font-size: 14px;
+    cursor: pointer;
+    
+  }
+  
