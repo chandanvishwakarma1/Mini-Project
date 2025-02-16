@@ -11,12 +11,10 @@ const ContactUsPage = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Add contact form submission logic here
     console.log('Name:', name);
     console.log('Email:', email);
     console.log('Subject:', subject);
     console.log('Message:', message);
-    // Clear the form
     setName('');
     setEmail('');
     setSubject('');
@@ -84,7 +82,6 @@ const ContactUsPage = () => {
           </div>
         </div>
         <div className="map-container">
-          {/* You can embed a map here, for example using Google Maps */}
           <iframe
             title="office-location"
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.5049998562625!2d144.96305891531662!3d-37.81362897975167!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642af0f11fd81%3A0xf0727bfe7a3e6f0!2sFederation+Square!5e0!3m2!1sen!2sin!4v1602054646149!5m2!1sen!2sin"

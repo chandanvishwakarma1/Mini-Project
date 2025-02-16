@@ -10,7 +10,6 @@ const SignupPage = () => {
 
   const handleSignup = (e) => {
     e.preventDefault();
-    // Add signup logic here
     console.log('Email:', email);
     console.log('Password:', password);
     console.log('Role:', role);
