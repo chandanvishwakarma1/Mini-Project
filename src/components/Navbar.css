@@ -48,15 +48,15 @@
   gap: 10px;
 }
 
-.login-button,
-.signup-button {
+.login-buttonld,
+.signup-buttonld {
   border: none;
   padding: 10px 20px;
   font-size: 14px;
   cursor: pointer;
   border-radius: 5px;
 }
-.signup-button {
+.signup-buttonld {
   background-color: #f1c40f;
   border: none;
   padding: 10px 20px;

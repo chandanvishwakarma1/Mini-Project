@@ -1,6 +1,8 @@
 import React from "react"; 
 import Navbar from "./Navbar";
 import "./LandingPage.css";
+import { Link } from 'react-router-dom'; 
+
 import {
   FaUsers,
   FaChalkboardTeacher,
@@ -135,10 +137,10 @@ const LandingPage = () => {
             <h4>Support</h4>
             <ul>
               <li>
-                <a href="#contact-us">Contact Us</a>
+              <li><Link to="/contact-us">Contact Us</Link></li>
               </li>
               <li>
-                <a href="#faq">FAQ</a>
+              <li><Link to="/faq">FAQ</Link></li>
               </li>
             </ul>
           </div>

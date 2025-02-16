@@ -58,6 +58,10 @@
 .cta-button-secondary:hover {
   background-color: #e74c3c;
 }
+.cta-button-secondary:hover {
+  background-color: #e74c3c;
+  color:white;
+}
 .features {
   padding: 40px 20px;
   background-color: #f9f9f9;
