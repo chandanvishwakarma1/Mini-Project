@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import Navbar from './Navbar';
 import './FAQPage.css';
+import { Link } from 'react-router-dom'; 
 
 const FAQPage = () => {
   const [activeIndex, setActiveIndex] = useState(null);
@@ -82,6 +83,68 @@ const FAQPage = () => {
           </div>
         ))}
       </div>
+      <footer className="footer">
+        <div className="footer-content">
+          <div className="footer-column">
+            <h4>For Students</h4>
+            <ul>
+              <li>
+                <a href="#communities">Communities</a>
+              </li>
+              <li>
+                <a href="#job-list">Job List</a>
+              </li>
+            </ul>
+          </div>
+          <div className="footer-column">
+            <h4>For Professors</h4>
+            <ul>
+              <li>
+                <a href="#create-community">Create Community</a>
+              </li>
+              <li>
+                <a href="#manage-resources">Manage Resources</a>
+              </li>
+            </ul>
+          </div>
+          <div className="footer-column">
+            <h4>For HR</h4>
+            <ul>
+              <li>
+                <a href="#post-job">Post Job</a>
+              </li>
+              <li>
+                <a href="#talent-pool">Talent Pool</a>
+              </li>
+            </ul>
+          </div>
+          <div className="footer-column">
+            <h4>Support</h4>
+            <ul>
+              <li>
+              <li><Link to="/contact-us">Contact Us</Link></li>
+              </li>
+              <li>
+              <li><Link to="/faq">FAQ</Link></li>
+              </li>
+            </ul>
+          </div>
+          <div className="footer-column">
+            <h4>Legal</h4>
+            <ul>
+              <li>
+                <a href="#privacy-policy">Privacy Policy</a>
+              </li>
+              <li>
+                <a href="#terms-of-service">Terms of Service</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <p className="copyright">
+          © 2025 Shri L.R. Tiwari College of Engineering. All rights reserved.
+        </p>
+      </footer>
     </>
   );
 };
