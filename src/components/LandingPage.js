@@ -1,5 +1,6 @@
 import React from "react"; 
 import Navbar from "./Navbar";
+// import Footer from "./Footer";
 import "./LandingPage.css";
 import { Link } from 'react-router-dom'; 
 
@@ -163,5 +164,8 @@ const LandingPage = () => {
     </div>
   );
 };
+
+  
+
 
 export default LandingPage;
